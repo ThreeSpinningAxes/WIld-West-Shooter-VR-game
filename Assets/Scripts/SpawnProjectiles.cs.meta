@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 18ca1f0adb9899f4c923e9f46c878a28
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - levelOneProjectilePrefab: {fileID: 7295629655948850979, guid: 7db5e2ee04501aa44ab1f8ca9afc830a, type: 3}
+  - levelTwoProjectilePrefab: {fileID: 7292808117586842926, guid: 542c92fb752aed142a91ef2ae943eda2, type: 3}
+  - levelThreeProjectilePrefab: {fileID: 7798726810910966806, guid: 3719909202138ab43b42e38264bbda81, type: 3}
+  - countdown: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

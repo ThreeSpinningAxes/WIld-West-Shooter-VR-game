@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "SteamVR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SteamVR_Windows_EditorHelper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SteamVR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR.dll": {}
+        }
+      },
+      "SteamVR_Windows_EditorHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SteamVR_Windows_EditorHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SteamVR_Windows_EditorHelper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SteamVR/1.0.0": {
+      "type": "project",
+      "path": "SteamVR.csproj",
+      "msbuildProject": "SteamVR.csproj"
+    },
+    "SteamVR_Windows_EditorHelper/1.0.0": {
+      "type": "project",
+      "path": "SteamVR_Windows_EditorHelper.csproj",
+      "msbuildProject": "SteamVR_Windows_EditorHelper.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "SteamVR >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\devra\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\development\\wildwest\\WildWestGunDraw\\SteamVR_Input_Editor.csproj",
+      "projectName": "SteamVR_Input_Editor",
+      "projectPath": "C:\\development\\wildwest\\WildWestGunDraw\\SteamVR_Input_Editor.csproj",
+      "packagesPath": "C:\\Users\\devra\\.nuget\\packages\\",
+      "outputPath": "C:\\development\\wildwest\\WildWestGunDraw\\Temp\\obj\\Debug\\SteamVR_Input_Editor\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\devra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\development\\wildwest\\WildWestGunDraw\\SteamVR.csproj": {
+              "projectPath": "C:\\development\\wildwest\\WildWestGunDraw\\SteamVR.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
