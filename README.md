@@ -23,4 +23,4 @@ To start the game, press the ‘A’ button as shown on the screen. Afterwards, 
 # Example gameplay
 
 
-[![Watch the video](https://i.ibb.co/RvyTpCY/image-Pic1.png)](https://streamable.com/hsg3gt)
+[![Watch the video](https://i.ibb.co/RvyTpCY/image-Pic1.png)](https://youtu.be/WZPGOCf5r6o)
